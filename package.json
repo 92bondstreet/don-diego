@@ -15,7 +15,8 @@
   ],
   "analyze": false,
   "dependencies": {
-    "express": "*"
+    "express":"3.x",
+    "debug":"*"
   },
   "devDependencies": {
    	"mocha": "",

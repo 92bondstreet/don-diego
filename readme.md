@@ -25,6 +25,11 @@ Getting start
 
 You can run with  `node app.js` and browse 2 pages to `http://localhost:3000/` and `http://localhost:3000/about`
 
+With `NODE_ENV`, you can define the mode: development or production.
+For example, create the environment variable `NODE_ENV` with `production` value to set production environment:
+
+`export NODE_ENV=production` for Linux or `SET NODE_ENV=production` for Windows.
+
 Structure
 -----  	
 
