@@ -43,7 +43,7 @@ Structure
 
 * `don-diego/app.js` Starter file. Application file to init the server and the router. Run with `node app.js`
 * `lib/server.js` File to create Express 3.x application
-* `lib/config.js` File to configure Express 3.x application with template engine, middlewares...
+* `lib/config.js` File to configure Express 3.x application with template engine, middlewares, error handling...
 
 Running tests
 -------------
