@@ -79,6 +79,11 @@ Running tests
 To run the tests under node you will need `mocha` and `should` installed (it's listed as a
 `devDependencies` so `npm install` from the checkout should be enough), then do `npm test`.
 
+TODO
+--------------
+
+*	Create a NoSQL database - MongoDB - handler
+
 Project status
 --------------
 don-diego is currently maintained by Yassine Azzout.
