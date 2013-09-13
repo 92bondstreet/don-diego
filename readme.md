@@ -14,7 +14,7 @@ Installation
 
 Clone it in your local folder 
 
-`git clone git@github.com:92bondstreet/don-diego.git` 
+`git clone -o don-diego git@github.com:92bondstreet/don-diego.git` 
 
 Then install don-diego and its dependencies with npm: 
 
@@ -54,7 +54,7 @@ Structure
 				body-about.html
 				body-index.html
 				header.html
-				js.
+				js.html
 			index.html
 			about.html
 		app.js
