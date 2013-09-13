@@ -3,8 +3,14 @@
 	{
 		var debug = require('debug')('app');
 
-		// bind and listen for connections
+		// bind for connections
 		var server = require('./lib/server');
+		
+		// Setup routes
+		var routes = require('./lib/routes');
+		routes.Setup(server);
+
+		// Listen for connections 
 		var port = 3000;
 		server.listen(port);
 

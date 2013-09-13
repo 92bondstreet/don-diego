@@ -34,16 +34,44 @@ Structure
 -----  	
 	don-diego
 		lib
+			routes
+				index.js
+				homepage.js
+				about.js
+			config.js
+			server.js
 		public
+			css
+			fonts
+			img
+			js
+			favicon.ico
 		test
 		views
+			partials
+				body-about.html
+				body-index.html
+				header.html
+				js.
+			index.html
+			about.html
 		app.js
 		package.json
 		readme.me
 
-* `don-diego/app.js` Starter file. Application file to init the server and the router. Run with `node app.js`
-* `lib/server.js` File to create Express 3.x application
-* `lib/config.js` File to configure Express 3.x application with template engine, middlewares, error handling...
+* `/don-diego/app.js` Starter file. Application file to init the server and the router. Run with `node app.js`
+* `/lib/server.js` File to create Express 3.x application
+* `/lib/config.js` File to configure Express 3.x application with template engine, middlewares, error handling...
+* `/lib/routes` Routes separation inspired by <a href="https://github.com/visionmedia/express/tree/master/examples/route-separation">Express route-separation</a>
+	* `index.js`	Setup all routes
+	* `homepage.js`	Define homepage render
+	* `about.js` 	Define about page render
+	*  ...
+* `/public` Static files. Mobile-first Responsive configuration generate with <a href="http://www.initializr.com">Initializr</a>
+* `/views` Example of handlebars template and partials 
+
+Deploy your web application (website...) source code in `views` and `public` directories.
+
 
 Running tests
 -------------
