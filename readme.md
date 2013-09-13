@@ -30,6 +30,8 @@ For example, create the environment variable `NODE_ENV` with `production` value 
 
 `export NODE_ENV=production` for Linux or `SET NODE_ENV=production` for Windows.
 
+Then, you can deploy your web application (website...) source code, template... in `views` and `public` directories.
+
 Structure
 -----  	
 	don-diego
@@ -69,8 +71,6 @@ Structure
 	*  ...
 * `/public` Static files. Mobile-first Responsive configuration generate with <a href="http://www.initializr.com">Initializr</a>
 * `/views` Example of handlebars template and partials 
-
-Deploy your web application (website...) source code in `views` and `public` directories.
 
 
 Running tests
