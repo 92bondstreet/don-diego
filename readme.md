@@ -32,16 +32,24 @@ For example, create the environment variable `NODE_ENV` with `production` value 
 
 Structure
 -----  	
+	don-diego
+		lib
+		public
+		test
+		views
+		app.js
+		package.json
+		readme.me
 
-
+* `don-diego/app.js` Starter file. Application file to init the server and the router. Run with `node app.js`
+* `lib/server.js` File to create Express 3.x application
+* `lib/config.js` File to configure Express 3.x application with template engine, middlewares...
 
 Running tests
 -------------
 
 To run the tests under node you will need `mocha` and `should` installed (it's listed as a
-`devDependencies` so `npm install` from the checkout should be enough), then do
-
-    $ npm test
+`devDependencies` so `npm install` from the checkout should be enough), then do `npm test`.
 
 Project status
 --------------

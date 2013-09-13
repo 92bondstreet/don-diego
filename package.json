@@ -16,7 +16,9 @@
   "analyze": false,
   "dependencies": {
     "express":"3.x",
-    "debug":"*"
+    "debug":"*",
+    "consolidate": "*",
+    "handlebars": "*"
   },
   "devDependencies": {
    	"mocha": "",
