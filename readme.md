@@ -14,11 +14,17 @@ Installation
 
 Clone it in your local folder 
 
-`git clone -o don-diego git@github.com:92bondstreet/don-diego.git` 
+`git clone git@github.com:92bondstreet/don-diego.git .` 
+
+Or export it in your local folder
+
+`git clone --depth=1 git@github.com:92bondstreet/don-diego.git && . rm -rf .git`
 
 Then install don-diego and its dependencies with npm: 
 
 `npm install -d`
+
+(Notice the `.` after the github url in order to clone/export without the package name)
 
 Getting start
 ----
