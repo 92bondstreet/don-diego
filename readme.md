@@ -29,7 +29,7 @@ Then install don-diego and its dependencies with npm:
 Getting start
 ----
 
-You can run with  `node app.js` and browse 2 pages to `http://localhost:3000/` and `http://localhost:3000/about`
+You can run with  `node app.js` and browse 2 pages on `http://localhost:3000/` and `http://localhost:3000/about`.Try also a non defined page to load a 404 error page template.
 
 With `NODE_ENV`, you can define the mode: development or production.
 For example, create the environment variable `NODE_ENV` with `production` value to set production environment:
@@ -42,10 +42,11 @@ Structure
 -----  	
 	don-diego
 		lib
-			routes
-				index.js
-				homepage.js
+			routes				
+				404.js
 				about.js
+				homepage.js								
+				index.js
 			config.js
 			server.js
 		public
@@ -57,12 +58,13 @@ Structure
 		test
 		views
 			partials
-				body-about.html
+				body-about404bout.html
 				body-index.html
 				header.html
 				js.html
-			index.html
+			404.html
 			about.html
+			index.html			
 		app.js
 		package.json
 		readme.me
@@ -74,6 +76,7 @@ Structure
 	* `index.js`	Setup all routes
 	* `homepage.js`	Define homepage render
 	* `about.js` 	Define about page render
+	* `404.js` 		Define 404 error page render
 	*  ...
 * `/public` Static files. Mobile-first Responsive configuration generate with <a href="http://www.initializr.com">Initializr</a>
 * `/views` Example of handlebars template and partials 
