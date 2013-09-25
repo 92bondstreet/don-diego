@@ -18,7 +18,7 @@ Clone it in your local folder
 
 Or export it in your local folder
 
-`git clone --depth=1 git@github.com:92bondstreet/don-diego.git && . rm -rf .git`
+`git clone --depth=1 git@github.com:92bondstreet/don-diego.git . && rm -rf .git`
 
 Then install don-diego and its dependencies with npm: 
 
