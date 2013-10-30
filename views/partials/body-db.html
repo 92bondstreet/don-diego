@@ -1,0 +1,26 @@
+<div class="header-container">
+    <header class="wrapper clearfix">
+        <h1 class="title">{{title}}</h1>
+    </header>
+</div>
+
+<div class="main-container">
+    <div class="main wrapper clearfix">
+
+        <article>
+            {{#each articles}}
+            <section>
+                <h2>{{title}}</h2>
+                <p>{{author}}</p>
+            </section>
+            {{/each}}            
+        </article>
+
+    </div> <!-- #main -->
+</div> <!-- #main-container -->
+
+<div class="footer-container">
+    <footer class="wrapper">
+        <h3>footer</h3>
+    </footer>
+</div>
