@@ -42,9 +42,13 @@ Structure
 -----  	
 	don-diego
 		lib
+			db
+				index.js
+				model.js
 			routes				
 				404.js
 				about.js
+				db.js
 				homepage.js								
 				index.js
 			config.js
@@ -58,12 +62,15 @@ Structure
 		test
 		views
 			partials
-				body-about404bout.html
+				body-404.html
+				body-about.html
+				body-db.html				
 				body-index.html
 				header.html
 				js.html
 			404.html
 			about.html
+			db.html
 			index.html			
 		app.js
 		package.json
@@ -76,8 +83,12 @@ Structure
 	* `index.js`	Setup all routes
 	* `homepage.js`	Define homepage render
 	* `about.js` 	Define about page render
+	* `db.js` 		Page render example with database (mongoDB) records
 	* `404.js` 		Define 404 error page render
 	*  ...
+* `/lib/db` Files to define mongoDB connection and wrapper with node-mongodb-native code.
+	* `index.js`	Define a mongoDB prototype with insert, remove, findAll... functions
+	* `model.js`	Define a singleton mongoDB object
 * `/public` Static files. Mobile-first Responsive configuration generate with <a href="http://www.initializr.com">Initializr</a>
 * `/views` Example of handlebars template and partials 
 
@@ -88,10 +99,6 @@ Running tests
 To run the tests under node you will need `mocha` and `should` installed (it's listed as a
 `devDependencies` so `npm install` from the checkout should be enough), then do `npm test`.
 
-TODO
---------------
-
-*	Create a NoSQL database - MongoDB - handler
 
 Project status
 --------------
