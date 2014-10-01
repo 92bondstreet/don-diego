@@ -12,15 +12,15 @@ don-diego name is in reference to Don Diego De La Vega and his minimal Mustache.
 Installation
 ------------
 
-Clone it in your local folder 
+Clone it in your local folder
 
-`git clone git@github.com:92bondstreet/don-diego.git .` 
+`git clone git@github.com:92bondstreet/don-diego.git .`
 
 Or export it in your local folder
 
 `git clone --depth=1 git@github.com:92bondstreet/don-diego.git . && rm -rf .git`
 
-Then install don-diego and its dependencies with npm: 
+Then install don-diego and its dependencies with npm:
 
 `npm install -d`
 
@@ -39,17 +39,17 @@ For example, create the environment variable `NODE_ENV` with `production` value 
 Then, you can deploy your web application (website...) source code, template... in `views` and `public` directories.
 
 Structure
------  	
+-----
 	don-diego
 		lib
 			db
 				index.js
 				model.js
-			routes				
+			routes
 				404.js
 				about.js
 				db.js
-				homepage.js								
+				homepage.js
 				index.js
 			config.js
 			server.js
@@ -64,21 +64,21 @@ Structure
 			partials
 				body-404.html
 				body-about.html
-				body-db.html				
+				body-db.html
 				body-index.html
 				header.html
 				js.html
 			404.html
 			about.html
 			db.html
-			index.html			
+			index.html
 		app.js
 		package.json
 		readme.me
 
 * `/don-diego/app.js` Starter file. Application file to init the server and the router. Run with `node app.js`
-* `/lib/server.js` File to create Express 3.x application
-* `/lib/config.js` File to configure Express 3.x application with template engine, middlewares, error handling...
+* `/lib/server.js` File to create <a href="http://expressjs.com/migrating-4.html">Express 4.x</a> application
+* `/lib/config.js` File to configure Express 4.x application with template engine, middlewares, error handling...
 * `/lib/routes` Routes separation inspired by <a href="https://github.com/visionmedia/express/tree/master/examples/route-separation">Express route-separation</a>
 	* `index.js`	Setup all routes
 	* `homepage.js`	Define homepage render
@@ -90,7 +90,7 @@ Structure
 	* `index.js`	Define a mongoDB prototype with insert, remove, findAll... functions
 	* `model.js`	Define a singleton mongoDB object
 * `/public` Static files. Mobile-first Responsive configuration generate with <a href="http://www.initializr.com">Initializr</a>
-* `/views` Example of handlebars template and partials 
+* `/views` Example of handlebars template and partials
 
 
 Running tests
