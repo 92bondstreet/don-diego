@@ -22,7 +22,7 @@
     "mongodb":"*",
     "body-parser":"*",
     "cookie-parser":"*",
-    "serve-static":"*",
+    "multer":"*",
     "morgan":"*",
     "errorhandler":"*"
   },
