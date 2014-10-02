@@ -1,7 +1,7 @@
 {
   "name": "don-diego",
   "preferGlobal": true,
-  "version": "0.2.0",
+  "version": "0.2.1",
   "author": "Yassine AZZOUT <92bondstreet@gmail.com>",
   "homepage": "https://github.com/92bondstreet/don-diego",
   "description": "don-diego is an express-handlebars web application (basic and minimal) structure.",
@@ -15,20 +15,20 @@
   ],
   "analyze": false,
   "dependencies": {
-    "express":"4.x",
-    "debug":"*",
+    "express": "4.x",
+    "debug": "*",
     "consolidate": "*",
     "handlebars": "*",
-    "mongodb":"*",
-    "body-parser":"*",
-    "cookie-parser":"*",
-    "multer":"*",
-    "morgan":"*",
-    "errorhandler":"*"
+    "mongodb": "*",
+    "body-parser": "*",
+    "cookie-parser": "*",
+    "multer": "*",
+    "morgan": "*",
+    "errorhandler": "*"
   },
   "devDependencies": {
-   	"mocha": "",
-   	"should": ""
+    "mocha": "",
+    "should": ""
   },
   "scripts": {
     "test": "mocha test/*.js"
